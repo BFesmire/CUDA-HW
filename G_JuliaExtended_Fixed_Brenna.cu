@@ -25,13 +25,6 @@
 
 /*
  Explain what you did to fix the code:
- 
-*/
-
-//*************************************************************************
-
-/*
- Explain what you did to fix the code:
 
  1. passed WindowWidth and WindowHeight into several functions so the code works for any dimensions
  2. changed the A and B to make a different fractal
