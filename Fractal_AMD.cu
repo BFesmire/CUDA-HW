@@ -111,7 +111,7 @@ __device__ float escapeOrNotColor(float x, float y, float *green, float *blue)
         count++;
     }
 
-    // Point did not escape -- inside the Julia set.
+    // Point did escape - color black
     if(count >= maxCount)
     {
         *green = 0.0;
@@ -120,7 +120,7 @@ __device__ float escapeOrNotColor(float x, float y, float *green, float *blue)
         return 0.00; // red
     }
 
-    // keeps the outside black
+    // keeps the outside black bc they escaped too fast
     if(count < 20)
     {
         *green = 0.0;
