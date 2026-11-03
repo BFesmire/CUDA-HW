@@ -28,6 +28,9 @@
  9. Added a loop in draw_picture() to work with NUMBER_OF_SPHERES objects
  10. Added arrays for red, green, and blue so each sphere gets a random color
 
+This is a more fun version:
+https://github.com/BFesmire/CUDA-HW/blob/main/R_TwoBodyToNBodyCPU_Spinning.cu
+
 */
 
 // Include files
